@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Animations Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animation Preferences</h1>
+        
+        <div class="preference-form">
+            <label for="animation-type">Choose Animation:</label>
+            <select id="animation-type">
+                <option value="bounce">Bounce</option>
+                <option value="rotate">Rotate</option>
+                <option value="color-change">Color Change</option>
+                <option value="slide">Slide</option>
+            </select>
+            
+            <label for="animation-speed">Animation Speed:</label>
+            <select id="animation-speed">
+                <option value="slow">Slow</option>
+                <option value="normal">Normal</option>
+                <option value="fast">Fast</option>
+            </select>
+            
+            <button id="save-btn">Save Preferences</button>
+            <button id="animate-btn">Trigger Animation</button>
+        </div>
+        
+        <div class="animation-box" id="animated-element">
+            Watch me animate!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
